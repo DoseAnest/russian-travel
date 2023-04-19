@@ -1,0 +1,46 @@
+.cover {
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 0 auto 92px;
+    background-image: url(../../images/До\ Байкала.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition-duration: 0.5s;
+  }
+  .cover:hover::before {
+    opacity: 0.8;
+  }
+  @media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        max-height: 640px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        max-height: 480px;
+        margin: 0 0 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        max-height: 200px;
+        margin: 0 0 64px;
+    }
+}
