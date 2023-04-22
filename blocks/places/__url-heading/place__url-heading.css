@@ -7,7 +7,7 @@
     letter-spacing: 2px;
     color: #AAAAAA;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 728px) {
     .place__url-heading {
         line-height: 1;
     }
