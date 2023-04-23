@@ -7,6 +7,9 @@
     line-height: 1.63;
     color: #FFFFFF;
 }
+.place__paragraph:last-of-type {
+    padding-bottom: 0;
+  }
 @media screen and (max-width: 1279px) {
     .place__paragraph {
         max-width: 456px;
